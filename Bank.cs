@@ -11,6 +11,7 @@ namespace BankAppUI
         {
             private int count;
             private string sort_code;
+            
             private BankAccount[] accounts;
             public Bank(string sort_code, int max_accounts)
             {
